@@ -1,12 +1,7 @@
-using System;
 using Application.Activities.Comands;
 using Application.Activities.Queries;
 using Domain;
-using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Persistence;
-
 namespace API.Controllers;
 
 public class ActivitiesController : BaseApiController
